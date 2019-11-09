@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Plex Control</title>
+	<link rel="stylesheet"  href="css/estilo1.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<ul class="menu">
+				<a href="php/index.php">      <li>Cadastro      </li> </a>
+				<a href="php/faturamento.php"><li>Faturamento   </li> </a>
+				<a href="php/estoque.php">    <li>Estoque       </li> </a>
+				<a href="php/consultas.php">  <li>Consultas     </li> </a>
+				<a href="php/usuario.php"> 	  <li>Usuários   	</li> </a>
+			</ul>
+
+		</nav>
+		<section>
+			<h1>Cadastro de usuários</h1>
+			<hr><br><br>
+
+			<form method="POST" action="php/processa.php">
+
+				<input type="submit" value="Salvar" class="btn">
+				<input type="reset"  value="limpar" class="btn">
+				<br><br>
+
+				<label for="nome">Cliente:* </label><br>
+				<input class="campo" type="text" name="nome" id="nome" maxlength="50" required autofocus><br>
+
+				<label for="email">Email:*</label><br>
+				<input class="campo" type="email" name="email" id="email" maxlength="50" required><br>
+				
+				<label for="prof">Profissão: </label><br>
+				<input class="campo" type="text" name="prof" id="prof" maxlength="40"><br>
+
+			</form>	
+
+		</section>
+
+		
+
+
+</body>
+</html>
