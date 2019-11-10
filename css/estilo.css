@@ -16,8 +16,9 @@ body {
 
 .container {
 	margin: auto;
-	background-color: red;
+	background-color: #ED5B00; /*cor de fundo da div marrom que eu criei no color picker*/
 	width: 1200px;
+	height: 100px;
 	margin-top: 20px;
 	padding: 10px;
 
@@ -87,4 +88,15 @@ article {
 	background-color: #d6d5d5;
 	margin-bottom: 5px;
 	margin-left: 5px;
+}
+
+label {
+	color: white;
+	font-size: 15pt;
+}
+
+input {
+	color: black;
+	font-size: 15pt;
 	
+}
